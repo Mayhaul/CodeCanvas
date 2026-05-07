@@ -1,0 +1,73 @@
+:root {
+    font:sans-serif;
+}
+
+.editor-panel {
+
+  background:
+    var(--bg-panel);
+
+  border:
+    1px solid
+    var(--border-primary);
+
+  backdrop-filter:
+    blur(12px);
+
+  box-shadow:
+    var(--shadow-soft);
+
+  border-radius: 20px;
+}
+
+.grid-bg {
+
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    );
+
+  background-size:
+    24px 24px;
+}
+
+.editor-button {
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.06);
+
+  transition:
+    0.2s ease;
+}
+
+.editor-button:hover {
+
+  background:
+    rgba(255,255,255,0.08);
+}
+
+.editor-button-active {
+
+  background:
+    var(--accent);
+
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+  background:
+    rgba(255,255,255,0.08);
+
+  border-radius: 999px;
+}
